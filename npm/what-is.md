@@ -1,4 +1,5 @@
 ---
+layout: default
 id: what -is-npm
 title: 01-npm是什么
 permalink: /npm/what-is
