@@ -1,8 +1,7 @@
 ---
-layout: default
 id: what -is-npm
 title: 01-npm是什么?
-permalink: what-is-npm
+permalink: what-is-npm.html
 next: installing-node
 ---
 ## npm是什么
