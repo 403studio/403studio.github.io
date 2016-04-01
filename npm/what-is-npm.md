@@ -4,7 +4,7 @@ title: 01-npm是什么?
 permalink: what-is-npm.html
 next: installing-node
 ---
-## npm是什么
+## npm是什么?
 
 npm为JavaScript开发者提供了一个很好的分享重用的方式，同时提供一个很好的方式来更新你的代码
 
