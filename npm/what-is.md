@@ -1,7 +1,7 @@
 ---
 id: what -is-npm
 title: 01-npm是什么
-permalink: /npm/what-is
+permalink: what-is
 next: installing-node
 ---
 ## npm是什么
