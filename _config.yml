@@ -6,3 +6,8 @@ defaults:
     type: post
   values:
     layout: default
+- scope:
+    path: 'npm'
+    type: page
+  values:
+    layout: default
