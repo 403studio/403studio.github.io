@@ -8,6 +8,6 @@ defaults:
     layout: default
 - scope:
     path: 'npm'
-    type: post
+    type: page
   values:
     layout: default
