@@ -12,4 +12,4 @@ defaults:
   values:
     layout: default
 collections:
-- npm
+- npms
