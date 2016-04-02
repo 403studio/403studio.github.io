@@ -11,5 +11,5 @@ defaults:
     type: page
   values:
     layout: default
-collections
+collections:
 - npm
