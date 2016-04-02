@@ -1,6 +1,6 @@
 ---
 id: what -is-npm
-title: 01-npm是什么
+title: 01-npm是什么?
 next: installing-node
 ---
 ## npm是什么
