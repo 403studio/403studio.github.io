@@ -9,8 +9,8 @@ title: Hank Quinlan, Horrible Cop
 	{% endfor %}
 </ul>
 <ul>
-	{% for post1 in site.pages %}
-		<li><a href="{{post1.url}}">{{post1.title}}</a></li>
+	{% for page in site.pages %}
+		<li><a href="{{page.url}}">{{page.title}}</a></li>
 	{% endfor %}
 </ul>
 <div class="blurb">
