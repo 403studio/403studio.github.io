@@ -1,0 +1,10 @@
+{% for section in site.data.nav_npm %}
+	<div class="nav-docs-section">
+		<h3>{{ section.title }}</h3>
+		<ul>
+			{% for item in section.items %}
+				<li><a href="/npm/{{ item.id }}">{{ item.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+{% endfor %}
