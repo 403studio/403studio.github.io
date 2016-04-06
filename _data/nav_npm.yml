@@ -1,6 +1,6 @@
 - title: 快速开始
   items:
   - id： what-is-npm
-    title: what-is-npm
+    subtitle: what-is-npm
   - id: installing-node
-    title: installing-node
+    subtitle: installing-node
