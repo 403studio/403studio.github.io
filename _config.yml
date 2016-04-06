@@ -6,15 +6,5 @@ defaults:
     type: post
   values:
     layout: default
-- scope:
-    path: '_npms'
-    type: page
-  values:
-    layout: default
-- scope:
-    path: 'npms'
-    type: page
-  values:
-    layout: default
 collections:
 - npms
