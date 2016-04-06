@@ -6,6 +6,11 @@ defaults:
     type: post
   values:
     layout: default
+- scope:
+    path: ''
+    type: npms
+  values:
+    layout: default
 collections:
  npms:
   output: true
