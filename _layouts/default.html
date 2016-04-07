@@ -24,15 +24,25 @@
 				<div class="col-md-3">
 					{% include nav_npm.html %}
 				</div>
-				<div class="col-md-9">{{ content }}</div>
+				<div class="col-md-9">
+					{{ content }}
+					{% if page.prev %}
+						<div class="col-md-6"><a class="btn btn-default glyphicon glyphicon-chevron-left" href="/npms/{{ page.prev }}">前一篇</a></div>
+					{% endif %}
+					{% if page.next %}
+						<div class="col-md-6 text-right"><a class="btn btn-default glyphicon glyphicon-chevron-right" href="/npms/{{ page.next }}">后一篇</a></div>
+					{% endif %}
+				</div>
 			</div>
 			
 		</div><!-- /.container -->
 		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
+    		<div class="container">
+				<ul class="list-unstyled">
+					<li>&copy; 403studio 2016</li>
+	        		<li><a href="https://github.com/403studio" target="_blank">github.com/403studio</a></li>
+				</ul>
+			</div>
 		</footer>
 	</body>
 </html>
