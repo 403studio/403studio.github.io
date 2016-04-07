@@ -22,7 +22,7 @@ package.json文件提供很多使用的功能：
 * "version"
 
 例如：
-```js
+```
 {
     "name": "my-awesome-package",
     "version": "1.0.0"
