@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ page.title }}---403工作室</title>
+		<title>{{ page.title }}-403工作室</title>
 		<link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 		<link href="/css/main.css" rel="stylesheet">
 	</head>
@@ -20,7 +20,23 @@
 			</div>
 		</nav>
 		<div class="container">
-			{{ content }}
+			<div class="row">
+				<div class="col-md-3">
+					{% include nav_npm.html %}
+				</div>
+				<div class="col-md-9">
+					<div class="col-md-8"><h1>{{ page.title }}</h1></div>
+					<div class="col-md-4 text-right"><a class="text-danger" href="https://github.com/403studio/403studio.github.io/tree/master/{{ page.path }}" target="_blank">Edit on Github</a></div>
+					<div class="col-md-12">{{ content }}</div>
+					{% if page.prev %}
+						<div class="col-md-6"><a class="btn btn-default glyphicon glyphicon-chevron-left" href="/npms/{{ page.prev }}">前一篇</a></div>
+					{% endif %}
+					{% if page.next %}
+						<div class="col-md-6 text-right"><a class="btn btn-default glyphicon glyphicon-chevron-right" href="/npms/{{ page.next }}">后一篇</a></div>
+					{% endif %}
+				</div>
+			</div>
+			
 		</div><!-- /.container -->
 		<footer>
     		<div class="container">
