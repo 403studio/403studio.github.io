@@ -1,5 +1,5 @@
 ---
-id: what -is-npm
+id: what-is-npm
 title: 01-npm是什么?
 next: installing-node
 ---
