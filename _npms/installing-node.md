@@ -5,6 +5,8 @@ prev: what-is-npm
 next: fixing-npm-permissions
 ---
 
+# Getting Started
+
 {:toc}
 
 ## 安装Node.js
