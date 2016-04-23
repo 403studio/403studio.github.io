@@ -5,10 +5,6 @@ prev: what-is-npm
 next: fixing-npm-permissions
 ---
 
-# Getting Started
-
-{:toc}
-
 ## 安装Node.js
 
 如果你使用的是OS X或者Windows，最好的安装方式是使用[nodejs.org](https://nodejs.org)官网提供的安装程序。如果你使用的Linux，可以通过安装程序安装，也可以通过[NodeSource's binary distributions](https://github.com/nodesource/distributions)查找合适的版本来进行安装
