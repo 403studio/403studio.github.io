@@ -1,4 +1,9 @@
-name: Hank Quinlan, Horrible Cop
+name: hao.huang
+title: 403工作室
+email: hao.huang@aliyun.com
+description: > # this means to ignore newlines until "baseurl:"
+  403工作室是懒得糊涂的个人网站，包括了博客（学习资料，生活随笔，翻译文档）；文档（开源软件的文档翻译整理）；项目（自己项目的demo和document）
+baseurl: ""
 markdown: kramdown
 defaults:
 - scope:
