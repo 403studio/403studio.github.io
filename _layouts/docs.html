@@ -1,50 +1,21 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>{{ page.title }}-403工作室</title>
-		<link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-		<link href="/css/main.css" rel="stylesheet">
-	</head>
-	<body>
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<div class="navbar-header col-md-3">
-					<a class="navbar-brand" href="#">403工作室</a>
-				</div>
-				<div class="collapse navbar-collapse align-right">
-					<ul class="nav navbar-nav">
-						<li><a href="#">Home</a></li>
-						<li class="active"><a href="http://docs.403studio.com">Docs</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					{% include nav_npm.html %}
-				</div>
-				<div class="col-md-9">
-					<div class="col-md-8"><h1>{{ page.title }}</h1></div>
-					<div class="col-md-4 text-right"><a class="text-danger" href="https://github.com/403studio/403studio.github.io/tree/master/{{ page.path }}" target="_blank">Edit on Github</a></div>
-					<div class="col-md-12">{{ content }}</div>
-					{% if page.prev %}
-						<div class="col-md-6"><a class="btn btn-default glyphicon glyphicon-chevron-left" href="/npms/{{ page.prev }}">前一篇</a></div>
-					{% endif %}
-					{% if page.next %}
-						<div class="col-md-6 text-right"><a class="btn btn-default glyphicon glyphicon-chevron-right" href="/npms/{{ page.next }}">后一篇</a></div>
-					{% endif %}
-				</div>
-			</div>
-			
-		</div><!-- /.container -->
-		<footer>
-    		<div class="container">
-				<ul class="list-unstyled">
-					<li>&copy; 403studio 2016</li>
-	        		<li><a href="https://github.com/403studio" target="_blank">github.com/403studio</a></li>
-				</ul>
-			</div>
-		</footer>
-	</body>
-</html>
+---
+layout: default
+---
+
+<div class="row">
+	<div class="col-md-3">
+		{% include nav_npm.html %}
+	</div>
+	<div class="col-md-9">
+		<div class="col-md-8"><h1>{{ page.title }}</h1></div>
+		<div class="col-md-4 text-right"><a class="text-danger" href="https://github.com/403studio/403studio.github.io/tree/master/{{ page.path }}" target="_blank">Edit on Github</a></div>
+		<div class="col-md-12">{{ content }}</div>
+		{% if page.prev %}
+			<div class="col-md-6"><a class="btn btn-default glyphicon glyphicon-chevron-left" href="/npms/{{ page.prev }}">前一篇</a></div>
+		{% endif %}
+		{% if page.next %}
+			<div class="col-md-6 text-right"><a class="btn btn-default glyphicon glyphicon-chevron-right" href="/npms/{{ page.next }}">后一篇</a></div>
+		{% endif %}
+	</div>
+</div>
+	

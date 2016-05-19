@@ -1,34 +1,19 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>{{ page.title }}---403工作室</title>
-		<link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-		<link href="/css/main.css" rel="stylesheet">
-	</head>
-	<body>
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<div class="navbar-header col-md-3">
-					<a class="navbar-brand" href="#">403工作室</a>
-				</div>
-				<div class="collapse navbar-collapse align-right">
-					<ul class="nav navbar-nav">
-						<li><a href="#">Home</a></li>
-						<li class="active"><a href="http://docs.403studio.com">Docs</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<div class="container">
-			{{ content }}
-		</div><!-- /.container -->
-		<footer>
-    		<div class="container">
-				<ul class="list-unstyled">
-					<li>&copy; 403studio 2016</li>
-	        		<li><a href="https://github.com/403studio" target="_blank">github.com/403studio</a></li>
-				</ul>
-			</div>
-		</footer>
-	</body>
+<html lang="zh-CN">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>
+
